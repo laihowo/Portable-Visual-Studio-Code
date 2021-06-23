@@ -1,0 +1,12 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host GoogleCloudShell
+    HostName 104.199.193.59
+    Port 6000
+    User lai_howo
+    ForwardAgent yes
+    IdentityFile "%d\.ssh\google_compute_engine"
+
+Host iCode
+    HostName icode.eastasia.cloudapp.azure.com
+    User laihowo
+    IdentityFile "%d\.ssh\laihowo.pem"
