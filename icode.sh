@@ -11,8 +11,9 @@
 # gcloud
 # curl -O "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-346.0.0-linux-x86_64.tar.gz"
 # tarf -vf
+# ./google-cloud-sdk/bin/gcloud init
 
-IP=$(./gcloud-sdk/gcloud cloud-shell ssh --dry-run --authorize-session | grep -o "[0-9]\+[.][0-9]\+[.][0-9]\+[.][0-9]\+")
+IP=$(./google-cloud-sdk/bin/gcloud cloud-shell ssh --dry-run --authorize-session | grep -o "[0-9]\+[.][0-9]\+[.][0-9]\+[.][0-9]\+")
 if [ -z "$IP" ]
 then
     IP=1.2.3.4
