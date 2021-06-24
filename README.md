@@ -1,2 +1,2 @@
-# Mac-Visual-Studio-Code
-Mac-Visual-Studio-Code
+# Portable-Visual-Studio-Code
+Portable-Visual-Studio-Code
