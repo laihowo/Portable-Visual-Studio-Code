@@ -4,10 +4,6 @@
 # wget "https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal"
 # open
 
-# Windows
-# wget "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-archive"
-# unzip
-
 # gcloud
 # curl -O "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-346.0.0-linux-x86_64.tar.gz"
 # tarf -vf
