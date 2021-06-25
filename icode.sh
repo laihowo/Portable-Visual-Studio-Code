@@ -20,3 +20,5 @@ then
 fi
 echo $IP
 #sed -i "s/[0-9]\+[.][0-9]\+[.][0-9]\+[.][0-9]\+/$IP/" .ssh/config
+
+cp ./Protable-Visual-Studio-Code/config .ssh/config
