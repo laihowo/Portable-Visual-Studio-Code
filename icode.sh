@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd Portable-Visual-Studio-Code
+
 # Mac Visual Studio Code
 ZIP=VSCode-darwin-universal.zip
 curl -O "https://az764295.vo.msecnd.net/stable/507ce72a4466fbb27b715c3722558bb15afa9f48/$ZIP"
@@ -21,4 +23,4 @@ fi
 echo $IP
 #sed -i "s/[0-9]\+[.][0-9]\+[.][0-9]\+[.][0-9]\+/$IP/" .ssh/config
 
-cp ./Protable-Visual-Studio-Code/config .ssh/config
+cp config ../.ssh/config
