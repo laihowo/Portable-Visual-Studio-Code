@@ -7,3 +7,6 @@
 # curl -O "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/$TAR"
 # tar -xzvf $TAR
 ./google-cloud-sdk/bin/gcloud init
+
+# Mac Google Chrome
+open -a "Google Chrome"
