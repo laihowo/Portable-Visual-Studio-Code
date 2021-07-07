@@ -14,4 +14,4 @@ code --install-extension ms-vscode-remote.remote-ssh
 # curl -O "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/$TAR"
 # tar -xzvf $TAR
 export PATH="$PATH:google-cloud-sdk/bin"
-gcloud init
+gcloud auth login
