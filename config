@@ -6,7 +6,7 @@ Host GoogleCloudShell
     ForwardAgent yes
     IdentityFile "%d/.ssh/google_compute_engine"
 
-Host iCode
-    HostName icode.eastasia.cloudapp.azure.com
+Host laihowo
+    HostName lai-howo.eastasia.cloudapp.azure.com
     User laihowo
     IdentityFile "%d/.ssh/laihowo.pem"
