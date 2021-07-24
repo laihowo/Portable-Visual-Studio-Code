@@ -17,6 +17,8 @@ if ! test -f "$FILE"; then
     cp $KEY $FILE
 fi
 
+cp config $HOME/.ssh/config
+
 # gcloud
 # TAR=google-cloud-sdk-346.0.0-linux-x86_64.tar.gz
 # curl -O "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/$TAR"
