@@ -3,7 +3,7 @@
 # cd Portable-Visual-Studio-Code
 
 # Mac Google Chrome
-open -a "Google Chrome" open -a "Google Chrome" https://portal.azure.com/#@ec09e4d7-3d0f-4eff-9c1e-7ba8060c5417/resource/subscriptions/d230fa20-6a54-46d8-9a05-b8839e5ce157/resourcegroups/laihowo/providers/Microsoft.Compute/virtualMachines/laihowo/overview
+open -a "Google Chrome" https://portal.azure.com/#@ec09e4d7-3d0f-4eff-9c1e-7ba8060c5417/resource/subscriptions/d230fa20-6a54-46d8-9a05-b8839e5ce157/resourcegroups/laihowo/providers/Microsoft.Compute/virtualMachines/laihowo/overview
 
 # Mac Visual Studio Code
 export PATH="$PATH:Visual_Studio_Code.app/Contents/Resources/app/bin"
