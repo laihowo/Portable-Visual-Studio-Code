@@ -10,7 +10,7 @@ fi
 
 # Mac Shell
 sed -Ei "" "s/[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+/$IP/" config
-cp config /Users/library/.ssh/config
+cp config $HOME/.ssh/config
 
 # Windows Subsystem for Linux
 # sed -i "s/[0-9]\+[.][0-9]\+[.][0-9]\+[.][0-9]\+/$IP/" .ssh/config
