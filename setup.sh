@@ -10,7 +10,9 @@ export PATH="$PATH:Visual_Studio_Code.app/Contents/Resources/app/bin"
 code --install-extension ms-vscode-remote.remote-ssh
 
 # Azure Virtual Machine
-chmod 400 laihowo.pem
+KEY=laihowo.pem
+chmod 400 $KEY
+cp $KEY $HOME/.ssh/$KEY
 cp config $HOME/.ssh/config
 
 # gcloud
